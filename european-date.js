@@ -11,7 +11,7 @@ angular.module('EuropeanDate', [])
 
                     if (parsedMoment.isValid()) {
                         var parsedDate = parsedMoment.toDate();
-                        
+
                         // Dirty hack to parse date correctly in IE
                         if (msie > 8 || msie11 >= 11 ) {
                             if (viewValue.length <= 10) {
@@ -35,4 +35,4 @@ angular.module('EuropeanDate', [])
                 window.setTimeout(installParser, 0);
             }
         };
-    })
+    });
