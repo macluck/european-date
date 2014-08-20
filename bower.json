@@ -1,0 +1,32 @@
+{
+  "name": "european-date",
+  "version": "0.0.1",
+  "description": "Make an angular bootstrap datepicker european-friendly",
+  "main": "european-date.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "datepicker",
+    "european",
+    "date",
+    "european",
+    "date"
+  ],
+  "authors": [
+    "Kyösti Herrala",
+    "Anton Maklakov"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "momentjs": "~2.6.0",
+    "angular": "1.2.16"
+  }
+}
